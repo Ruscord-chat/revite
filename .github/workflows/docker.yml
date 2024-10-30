@@ -28,6 +28,10 @@ on:
             - "LICENSE"
             - "README"
     workflow_dispatch:
+    
+permissions:
+  contents: read
+  packages: write
 
 jobs:
     test:
