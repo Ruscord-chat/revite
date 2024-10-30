@@ -83,7 +83,7 @@ jobs:
               id: meta
               uses: docker/metadata-action@v3
               with:
-                  images: ruscord-chat/client, ghcr.io/ruscord-chat/client
+                  images: ruscordchat/client, ghcr.io/ruscordchat/client
             - name: Login to DockerHub
               uses: docker/login-action@v1
               with:
